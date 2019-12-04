@@ -35,4 +35,4 @@ const wireOnePositions = calculateWirePositions(wireOne)
 const wireTwoPositions = calculateWirePositions(wireTwo)
 .map(point => JSON.stringify(point));
 
-console.log(wireOnePositions.indexOf(intersections[0]) + wireTwoPositions.indexOf(intersections[0]) + 2)
+console.log(wireOnePositions.indexOf(intersections[0]) + wireTwoPositions.indexOf(intersections[0]) + 2) //add two to account for indexes starting at o, not 1
